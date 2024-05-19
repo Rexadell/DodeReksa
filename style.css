@@ -1,0 +1,301 @@
+body {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: "nurito", sans-serif;
+}
+
+.headline {
+    background-image: url(https://i.pinimg.com/564x/cf/61/a2/cf61a2041b0d5a979b24e0ffb95f83c8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+}
+
+.headline h1 {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    color: black;
+    transform: scale(.8);
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.navigation { 
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+#logo {
+    color: aliceblue;
+    font-size: large;
+}
+
+.menu a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+    font-weight: 300px;
+    padding: 1em;
+    text-align: center;
+}
+
+.menu :hover {
+    background-color: rgb(16, 219, 155);
+    transition: 1s ease;
+}
+
+#about {
+    background-color: white;
+    background-size: cover;
+    display: inline-block;
+    text-align: justify;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans', sans-serif;
+    
+}
+
+.introduction {
+    margin: 2em auto;
+    padding: 2em 0;
+    max-width: 500px;
+    text-align: center;
+}
+
+.iconavatar {
+    width: 60px;
+}
+
+.education {
+    display: inline-block;
+    margin-top: 5em;
+    width: 49.5%;
+    text-align: center;
+}
+
+.iconeducation {
+    width: 70px;
+}
+
+.skill {
+    display: inline-block;
+    margin-top: 5em;
+    text-align: center;
+    width: 49.5%;
+}
+
+.iconskill {
+    width: 60px;
+}
+
+.perkenalan {
+    font-size: 1.2em;
+    width: 80%;
+    margin: 1em auto;
+    max-width: 24em;
+    text-align: justify;
+}
+
+#portofolio {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 2em 0;
+    
+}
+
+.head {
+    text-decoration: underline;
+    font-size: xx-large;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.portofolio-img {
+    width: auto;
+    text-align: center;
+    margin: 2em; 
+}
+
+.coding {
+    width:350px;
+}
+
+.volly {
+    width: 300px;
+}
+
+.guitar {
+    width: 300px;
+}
+
+.chess {
+    width: 300px;
+}
+
+hr {
+    max-width: 500px;
+}
+
+#contact {
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.kontak-saya {
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+form {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.inputan {
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+}
+
+.inputan > label {
+    display: block;
+    font-size: 1.2em;
+}
+
+.inputan > input {
+    width: 100%;
+    margin: .5em auto;
+    font-size: 1em;
+}
+
+textarea {
+    width: 100%;
+    margin: .5em auto;
+    font-size: 1em;
+}
+
+.submit-btn {
+    width: 85%;
+    border: none;
+    background-color: rgb(16, 219, 155);
+    margin: 1em 0;
+    height: 2.5em;
+    margin-bottom: 3em;
+}
+
+.info {
+    text-align: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 37%;
+}
+
+.number, .email {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.img {
+    width: 25px;
+    padding: 0 0.6em;
+}
+
+footer {
+    background-color: black;
+    margin: 0;
+    padding: 1.5em 0;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 550px) {
+    #logo {
+        display: none;
+    }
+
+    .education, .skill {
+        text-align: center;
+        width: 100%;
+    }
+
+    hr {
+        max-width: 200px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .label {
+        display: none;
+    }
+
+    .text {
+        font-size: small;
+    }
+
+    .portofolio-img {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    .introduction {
+        margin: 0;
+        margin-top: 1em;
+    }
+
+    .education {
+        margin-top: 2em;
+    }
+
+    .navigation {
+        padding: 0;
+        height: 49.5px;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img {
+        cursor: pointer;
+    }
+}

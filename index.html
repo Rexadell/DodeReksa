@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Latihan CSS</title>
+</head>
+<body>
+    <div class="headline">
+        <h1>Selamat datang di website saya!</h1>
+    </div>
+    <header>
+        <nav>
+            <div class="navigation" id="nav">
+                <h1 id="logo">LOGO</h1>
+                <div class="menu">
+                    <a href="#about">About Me</a>
+                    <a href="#portofolio">My Portofolio</a>
+                    <a href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="about">
+            <div class="introduction">
+                <img src="https://cdn-icons-png.flaticon.com/512/64/64572.png" alt="iconavatar" class="iconavatar">
+                <p class="perkenalan">Perkenalkan saya Dewa Gede Reksa Parama Aditya, seorang Web developer 
+                    yang berfokus dalam membuat tampilan website yang modern dan responsive.</p>
+            </div>
+            <div class="education">
+                <img src="https://cdn-icons-png.flaticon.com/512/1940/1940611.png" alt="iconeducation" class="iconeducation">
+                <p class="perkenalan">Saya telah mengikuti beberapa kelas khusus untuk membuat 
+                    tampilan web responsive dan telah mempunyai beberapa sertifikat.</p>
+            </div>
+            <div class="skill">
+                <img src="https://cdn-icons-png.flaticon.com/512/9614/9614272.png" alt="iconskill" class="iconskill">
+                <p class="perkenalan">Saya telah mengusasi cara membuat tampilan website dengan 
+                    menggunakna <b>HTML, CSS dan JavaScript</b> saya juga dapat menggunakan Framework modern seperti <b>Bootstrap.</b></p>
+            </div>
+    </section>
+    <section id="portofolio">
+        <h1 class="head">My Portofolio</h1>
+        <div class="portofolio-img">
+            <img src="https://www.dicoding.com/blog/wp-content/uploads/2020/04/Internship-rendi-programming-bahasa.png" alt="coding" class="coding">
+            <img src="https://ceklist.id/wp-content/uploads/2022/09/Merk-Bola-Voli-Terbaik.jpg" alt="volly" class="volly">
+            <img src="https://cdnwpseller.gramedia.com/wp-content/uploads/2022/06/16111331/belajar-gitar-768x512-1.jpg" alt="guitar" class="guitar">
+            <img src="https://www.ruparupa.com/blog/wp-content/uploads/2021/03/checkmate.png" alt="chess" class="chess">
+        </div>
+        <hr>
+    </section>
+    
+    <section id="contact">
+        <h1 class="kontak-saya">Kontak Saya</h1>
+        <form class="form" action=""> 
+            <div class="inputan">        
+            <label for="nama">Nama</label>
+            <input type="text" id="nama">
+            </div>
+            <div class="inputan">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            </div>
+            <div class="inputan">
+            <label for="pesan">Pesan</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button class="submit-btn">Kirim</button>
+            <div id="alert"></div>
+        </form>
+        <div class="info">
+            <div class="number">
+            <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="phone" class="img phone">
+            <a href="#" class="label">+62 - 8XXXXXXXXXX</a>
+            </div>
+            <div class="email">
+            <img src="https://cdn-icons-png.flaticon.com/512/542/542689.png" alt="mail" class="img mail">
+            <a href="#" class="label">name@example.com</a>
+            </div>
+        </div>
+    </section>
+    <footer> 
+       <div class="text"> © Kelas Website Responsive, Inc. All rights reserved.</div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+</body>
+</html>
